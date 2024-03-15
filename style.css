@@ -1,0 +1,32 @@
+.list{
+
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #7d7c7c;
+    margin-top: 150px;
+}
+
+.list button {
+    background-color: inherit;
+    outline: none;
+    cursor: pointer;
+    padding: 20px 40px;
+    border: none;
+    transition: 0.3s;
+    font-size: 19px;
+    float: left;
+}
+
+.list button:hover {
+    background-color: #ddd;
+}
+.list button:active{
+    background-color: #ddd;
+}
+
+.tablist1{
+    padding: 30px 0;
+    border: 1px solid #9c9898;
+    display: none;
+    border-top: none;
+}
